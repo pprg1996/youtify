@@ -1,11 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import style from "./youtifyStyle.module.css";
 
 import Player from "./components/player/player";
 
 function Youtify() {
   return (
-    <div>
+    <div className={style.youtifyDiv}>
       <Player />
       {/* <Playlist /> */}
       {/* <Search /> */}
