@@ -3,12 +3,13 @@ import ReactDOM from "react-dom";
 import style from "./youtifyStyle.module.css";
 
 import Player from "./components/player/player";
+import Playlist from "./components/playlist/playlist";
 
 function Youtify() {
   return (
     <div className={style.youtifyDiv}>
       <Player />
-      {/* <Playlist /> */}
+      <Playlist />
       {/* <Search /> */}
     </div>
   );
